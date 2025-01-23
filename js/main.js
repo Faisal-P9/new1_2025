@@ -1552,8 +1552,8 @@ function islandAnimation() {
     
     
 
-    let value = window.scrollY;
-    let value2 = window.scrollY;
+    let value = Math.round(window.scrollY);
+    let value2 = Math.round(window.scrollY);
     
     if(!(value >= 820)) {
       circleWrap.style.display = 'none';
