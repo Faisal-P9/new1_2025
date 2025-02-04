@@ -7391,7 +7391,7 @@ body {
       height: unset !important; } }
 
 .navbar {
-  opacity: 0.2;
+  opacity: 1;
   position: fixed;
   background-color: #fff;
   left: 0;
